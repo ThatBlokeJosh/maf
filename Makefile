@@ -1,4 +1,6 @@
 compiler:
+	rm -rf ./out
+	mkdir out
 	g++ main.cpp -o ./out/main
 	./out/main
 asm:
